@@ -1,0 +1,131 @@
+:root {
+	--bg : #1C2129;
+	--label : #7D94B8;
+	--add : #3BA387;
+	--font : 'Inter';
+	--inpbg : #2C333D;
+	--inpf : #E8EDF5;
+	--logout : #D14B5A;
+	--nav-other : #7D94B8;
+	--small : #2D75E0;
+}
+body{
+	background-color: var(--bg);
+	color: var(--label);
+	font-family: var(--font);
+}
+.nav-link{
+	font-family: var(--font); 
+	font-style: normal;
+}
+label{
+	color: var(--label);
+	font-weight: 700;
+	font-family: var(--font);
+	font-size: 100%;
+}
+.form-control{
+	border-radius: 8px;
+	color: var(--inpf);
+	background-color: var(--inpbg);
+	font-weight: 500;
+	border: none;
+	font-size: 85%;
+}
+.form-control:focus{
+	border: 2px solid var(--small);
+	background-color: var(--inpbg);
+	color: var(--inpf);
+	box-shadow: none;
+}
+option{
+	background-color: var(--inpbg);
+	color: var(--inpf);
+}
+small{
+	font-size: 60%;
+	cursor: pointer;
+}
+.form-control::-webkit-input-placeholder {
+  color: var(--inpf);
+}
+
+.form-control:disabled, .form-control[readonly]{
+	background-color: var(--inpbg);
+	color: var(--inpf);
+}
+#headingp{
+	display: none;
+}
+
+#mobile-navbar{
+	display: none;
+	top: 0;
+	background-color: var(--bg);
+	color: var(--inpf);
+}
+@media (max-width: 576px) { 
+body{
+	font-size: 50%;
+}
+#svg{
+	width: 150px;
+	height: 30px;
+}
+#heading{
+	display: none;
+}
+#headingp{
+	display: block;
+}
+.btn{
+font-size: 100% !important;
+}
+}
+
+@media (max-width: 992px){
+	#mobile-navbar{
+	display: block;
+}
+#normal-navbar{
+	display: none;
+}
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}

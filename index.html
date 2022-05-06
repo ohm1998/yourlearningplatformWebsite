@@ -1,0 +1,510 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="static/assets/imgs/logo.svg" type="image/svg">  
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <!-- font awesome 5 free -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+  <!-- Poppins font from Google -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="static/assets/app.css">
+
+  <title>YLP - Your Learning Platform</title>
+</head>
+
+<body>
+  <!--Hero ====================================== -->
+  <header class="hero container-fluid border-bottom">
+    <nav class="hero-nav container px-4 px-lg-0 mx-auto">
+      <ul class="nav w-100 list-unstyled align-items-center p-0">
+        <li class="hero-nav__item">
+          <img height="300" width="300" src="static/assets/imgs/ylp-trans.png">
+        </li>
+        <li id="hero-menu" class="flex-grow-1 hero__nav-list hero__nav-list--mobile-menu ft-menu">
+          <ul class="hero__menu-content nav flex-column flex-lg-row ft-menu__slider animated list-unstyled p-2 p-lg-0">
+            <li class="flex-grow-1">
+              <ul class="nav nav--lg-side list-unstyled align-items-center p-0">
+                <li class="hero-nav__item">
+                  <a href="#download-app" class="hero-nav__link"><b>Download App</b></a>
+                </li>
+                <li class="hero-nav__item">
+                  <a href="#contactUs" class="hero-nav__link">Contact Us</a>
+                </li>
+                <li class="hero-nav__item">
+                  <a href="#work_with_us" class="hero-nav__link">Join Us</a>
+                </li>
+                <!-- <li class="hero-nav__item">
+                  <a href="#testimonials" class="hero-nav__link">Our Team</a>
+                </li> -->
+                <li class="hero-nav__item">
+                  <a href="#faq" class="hero-nav__link">About Us</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <button onclick="document.querySelector('#hero-menu').classList.toggle('ft-menu--js-show')"
+            class="ft-menu__close-btn animated">
+            <svg class="bi bi-x" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M11.854 4.146a.5.5 0 010 .708l-7 7a.5.5 0 01-.708-.708l7-7a.5.5 0 01.708 0z"
+                clip-rule="evenodd" />
+              <path fill-rule="evenodd" d="M4.146 4.146a.5.5 0 000 .708l7 7a.5.5 0 00.708-.708l-7-7a.5.5 0 00-.708 0z"
+                clip-rule="evenodd" />
+            </svg>
+          </button>
+        </li>
+        <li class="d-lg-none flex-grow-1 d-flex flex-row-reverse hero-nav__item">
+          <button onclick="document.querySelector('#hero-menu').classList.toggle('ft-menu--js-show')"
+            class="text-center px-2">
+            <i class="fas fa-bars"></i>
+          </button>
+        </li>
+      </ul>
+    </nav>
+    <div class="hero__content container mx-auto">
+      <div class="row px-0 mx-0 align-items-center">
+        <div class="col-lg-12 px-0">
+          <h1 class="hero__title mb-3">
+            The Ultimate  <span class="highlight">Learning</span> Destination
+          </h1>
+          <p class="hero__paragraph mb-5">
+            We are an Education Company that aims to bridge the Gap between Classroom Learning and Industry Specific Skill Learning Needs of the commerce students. 
+           <br> <br> To access our academic and practical skill courses, download our App now.
+
+          </p>
+          <div class="hero__btns-container">
+            <a class="hero__btn btn btn-primary mb-2 mb-lg-0" href="#">
+              Coming Soon!
+            </a>
+            <!-- <a class="hero__btn btn btn-secondary mx-lg-3" href="#">
+              Get iOS App
+            </a> -->
+          </div>
+        </div>
+        <!-- <div class="col-lg-5 mt-5 mt-lg-0 mx-0">
+          <div class="hero__img-container">
+            <img src="static/assets/imgs/img-1.png" class="hero__img w-100">
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </header>
+
+  <!-- ===================================== -->
+
+
+
+  <!-- ===================================== -->
+
+  <div id="features" class="block-11 space-between-blocks">
+    <div class="container">
+      <!-- HEADER -->
+      <div class="block__header col-lg-8 col-xl-7 mx-auto text-center">
+        <p class="block__pre-title mb-2">GET MORE DETAILS</p>
+        <h1 class="block__title mb-3">Why <span class="highlight">YLP</span> ?</h1>
+        <!-- <p class="block__paragraph mb-0">
+          Academic courses comprising of concise video lectures, notes and question bank for degree courses available completely for free
+        </p> -->
+      </div>
+      <div class="row align-items-center justify-content-center flex-column-reverse flex-lg-row px-2">
+        <div class="col-lg-4 col-xl-5 p-lg-5">
+          <img class="w-100" src="static/assets/imgs/img-3.png">
+        </div>
+        <div class="col-lg-8 col-xl-6">
+          <div class="row">
+            <div class="col-md-6 mb-2-1rem">
+              <div class="card-1 card-1--selected text-center">
+                <span class="card-1__symbol mx-auto mb-4">
+                  <i class="fas fa-graduation-cap"></i>
+                </span>
+                <h3 class="card-1__title mb-2">Quality Academic Courses</h3>
+                <p class="card-1__paragraph">
+                  <!-- Quality lectures, notes and guidance tips from experienced faculties to help you achieve your goals. -->
+                  Academic courses comprising of concise video lectures, notes and question bank for degree courses available completely for free
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 mb-2-1rem">
+              <div class="card-1 text-center">
+                <span class="card-1__symbol mx-auto mb-4">
+                  <i class="fas fa-industry"></i>
+                </span>
+                <h3 class="card-1__title mb-2">Practical Skill Learning Courses</h3>
+                <p class="card-1__paragraph">
+                  Practical skill courses for all major industries where commerce students usually get placed to help you groom yourself for the practical world.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 mb-2-1rem">
+              <div class="card-1 text-center">
+                <span class="card-1__symbol mx-auto mb-4">
+                  <i class="fas fa-users"></i>
+                </span>
+                <h3 class="card-1__title mb-2">Learn From Experts</h3>
+                <p class="card-1__paragraph">
+                  Placement opportunities to get placed with our partner offices. <br>
+                  Learn from expert faculties who has most relevant practical experience
+
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 mb-2-1rem">
+              <div class="card-1 text-center">
+                <span class="card-1__symbol mx-auto mb-4">
+                  <i class="fas fa-database"></i>
+                </span>
+                <h3 class="card-1__title mb-2">Offline Access To All The Videos And Notes</h3>
+                <p class="card-1__paragraph">
+                  Get all your not favourite lectures, notes and micro notes offline to learn anytime and anywhere.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================================== -->
+
+
+  <!-- =================================== -->
+
+
+  <!-- =================================== -->
+
+  <div id="faq" class="block-39 space-between-blocks">
+    <div class="container">
+      <!-- HEADER -->
+      <div class="col-lg-8 col-xl-7 mx-auto text-center mb-5">
+        <h1 class="block__title">About Us</h1>
+      </div>
+      <div class="row px-2">
+        <div class="col-lg-6">
+          <div class="content-block">
+            <h4 class="content-block__title">
+              About
+            </h4>
+            <p class="content-block__paragraph">
+              We are an education company working towards grooming of our young students for the practical world through our academic and practical skill courses. 
+Our academic courses are available for FREE as we envision a world where no student needs to invest their huge time & money to prepare for the degree courses. 
+
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="content-block">
+            <h4 class="content-block__title">
+              <!-- Academic Courses -->
+              <br>
+            </h4>
+            <p class="content-block__paragraph">
+              At the same time, our practical skill courses are also available for a very nominal fee (with easy payment options) that would help you train you for the actual work to be done in the industry where you want to work. 
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="content-block">
+            <h4 class="content-block__title">
+              Academic Courses
+            </h4>
+            <p class="content-block__paragraph">
+              Video lcetures, study material and notes etc. for the degree courses offered by college/universites.  <br> 
+              These courses would be available completely free.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="content-block">
+            <h4 class="content-block__title">
+              Skill Courses
+            </h4>
+            <p class="content-block__paragraph">
+              Industry specific Practical/Work skill courses as well as soft skill courses that can groom students for practical world.
+              <br> These courses would be available for a very affordable fee.
+            </p>
+          </div>
+        </div>
+        <!-- <div class="col-lg-6">
+          <div class="content-block">
+            <h4 class="content-block__title">
+              Practical Courses
+            </h4>
+            <p class="content-block__paragraph">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+              industry’s standard
+              dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+              type specimen
+              book.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="content-block">
+            <h4 class="content-block__title">
+              Helpful Resourses
+            </h4>
+            <p class="content-block__paragraph">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+              industry’s standard
+              dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+              type specimen
+              book.
+            </p>
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </div>
+
+  <div id="testimonials" class="block-20 space-between-blocks">
+    <div class="container">
+      <div class="block__header col-lg-8 col-xl-7 mx-auto text-center px-0">
+        <h1 class="block__title mb-3">Our Courses</h1>
+      </div>
+      <div class="row px-2 pt-4">
+        <div class="col-lg-6">
+          <ul style="list-style-type:none;">
+            <li>►	Certification Courses on Tally & other accounting software </li>
+            <li>►	Diploma in Income Tax & tax software</li>
+            <li>►	Diploma in GST </li>
+            <li>►	Diploma in Internal & Statutory Audit </li>
+            <li>►	Diploma in Stock Broking </li>
+            <li>►	Diploma Course for Insurance Agents </li>
+            <li>►	Diploma in Human Resource Management </li>
+            <li>►	Diploma in Marketing </li>
+            <li>►	Certification course for Credit Analysts</li>
+            <li>►	Certification Course for Banking Employees</li>
+            <li>►	Diploma for Legal Interns</li>
+            <li>►	Course in Social Media Marketing</li>
+            <li>►	Essentials of Graphic Designing </li>
+            <li>►	Diploma in Video Editing</li>
+            <li>►	Dining etiquettes</li>
+          </ul>
+        </div>
+        <div class="col-lg-6">
+          <ul style="list-style-type:none;">
+            <li>►	Certification course on SEO & Blogging</li>
+            <li>►	Certification Course on MS Office (MS Excel, Word and PPT)</li>
+            <li>►	The Startup Course – Basics to know before you start your own business</li>
+            <li>►	How to write Resume </li>
+            <li>►	How to prepare for interview </li>
+            <li>►	English speaking </li>
+            <li>►	E-mail writing & Business Communication</li>
+            <li>►	How to use Google for learning, research and personal development </li>
+            <li>►	Public Speaking</li>
+            <li>►	Preparing for a Group Discussion (GD)</li>
+            <li>►	Grooming etiquettes for the professional world</li>
+            <li>►	Professional etiquettes that would help you succeed sooner </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- =================================== -->
+
+  <div id="work_with_us" class="block-39 space-between-blocks">
+    <div class="container">
+      <!-- HEADER -->
+      <div class="col-lg-8 col-xl-7 mx-auto text-center mb-5">
+        <h1 class="block__title">Work With us</h1>
+      </div>
+      <div class="row px-2">
+        <div class="col-lg-12">
+          <div class="content-block">
+            <!-- <h4 class="content-block__title">
+              About
+            </h4> -->
+            <p class="content-block__paragraph">
+              Do you believe in the cause that we are working towards and impact that we wish to make? 
+
+A world where students don’t need to pay the hefty private tuition fees and can access the academic courses for FREE so that they can invest their time, money and efforts in practical skill courses is a crazy idea. Isn’t it?
+
+If you are also such crazy person ready to work for this cause, we are looking for you.
+
+<br> <br>  We are currently looking for <b>Business Partners</b> and <b>Teachers</b> for YLP.
+            </p>
+            <br>
+          
+            <p>
+              Feel free to write to us on <a href="mailto:contactus@yourlearningplatform.com">contactus@yourlearningplatform.com</a>
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="content-block">
+            <h4 class="content-block__title">
+              <!-- Academic Courses -->
+              <br>
+            </h4>
+            <!-- <p class="content-block__paragraph">
+              At the same time, our practical skill courses are also available for a very nominal fee (with easy payment options) that would help you train you for the actual work to be done in the industry where you want to work. 
+            </p> -->
+          </div>
+        </div>
+        <!-- <div class="col-lg-6">
+          <div class="content-block">
+            <h4 class="content-block__title">
+              Academic Courses
+            </h4>
+            <p class="content-block__paragraph">
+              Video lcetures, study material and notes etc. for the degree courses offered by college/universites.  <br> 
+              These courses would be available completely free.
+            </p>
+          </div>
+        </div> -->
+        <!-- <div class="col-lg-6">
+          <div class="content-block">
+            <h4 class="content-block__title">
+              Skill Courses
+            </h4>
+            <p class="content-block__paragraph">
+              Industry specific Practical/Work skill courses as well as soft skill courses that can groom students for practical world.
+              <br> These courses would be available for a very affordable fee.
+            </p>
+          </div>
+        </div> -->
+        <!-- <div class="col-lg-6">
+          <div class="content-block">
+            <h4 class="content-block__title">
+              Practical Courses
+            </h4>
+            <p class="content-block__paragraph">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+              industry’s standard
+              dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+              type specimen
+              book.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="content-block">
+            <h4 class="content-block__title">
+              Helpful Resourses
+            </h4>
+            <p class="content-block__paragraph">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+              industry’s standard
+              dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+              type specimen
+              book.
+            </p>
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </div>
+
+  <!-- =================================== -->
+
+  <div id="download-app" class="block-32 space-between-blocks">
+    <div class="container">
+      <!-- HEADER -->
+      <div class="col-lg-8 col-xl-7 mx-auto text-center mb-5">
+        <h1 class="block__title mb-3">Sem 1, 3 & 5 - Now available FREE!</h1>
+        <p class="block__paragraph mb-0">
+          
+          Concise Video Lectures, Notes and MCQs Compilation for:
+          <br>
+          <b>B. COM, BAF, BMS </b><br>
+          <i>Download The App Now</i>
+        </p>
+      </div>
+      <div class="text-center">
+        <a class="btn btn-primary mb-2 mb-lg-0"  href="#">
+          Coming Soon
+        </a>
+          <!-- <a class="btn btn-secondary mx-lg-3" href="#">
+            Get iOS App
+          </a> -->
+      </div>
+
+    </div>
+  </div>
+
+  <!-- =================================== -->
+
+  <div class="block-44 py-5 d-flex justify-content-center" id="contactUs">
+    <div class="col-lg-4">
+      <div class="flex-md-row px-2 justify-content-center">
+        <div class="flex-grow-1">
+          <ul class="block-44__extra-links d-flex list-unstyled p-0">
+            <!-- <li class="mx-2">
+              <div class="block-44__logo-container">
+                <img height="100" width="50" src="static/assets/imgs/ylp-trans.png">
+              </div>
+            </li> -->
+            <!-- <li class="mx-2">
+              <a href="https://www.facebook.com/JottIt2020" target="blank" class="block-44__link m-0">
+                <i class="fab fa-facebook fa-2x"></i>
+              </a>
+            </li> -->
+            <li class="mx-2">
+              <a href="https://www.instagram.com/your_learning_platform/" target="blank" class="block-44__link m-0">
+                <i class="fab fa-instagram fa-2x"></i>
+              </a>
+            </li>
+            <!-- <li class="mx-2">
+              <a href="https://www.linkedin.com/company/jott-it" target="blank" class="block-44__link m-0">
+                <i class="fab fa-linkedin fa-2x"></i>
+              </a>
+            </li>
+            <li class="mx-2">
+              <a href="https://www.youtube.com/channel/UCKd6zDADG-GMKzityT4dmIA " target="blank" class="block-44__link m-0">
+                <i class="fab fa-youtube fa-2x"></i>
+              </a>
+            </li> -->
+            
+          </ul>
+        </div>
+    </div>
+    <div class="col-lg-8 col-md-12 col-sm-12">
+      <p class="footer-text">
+          <a target="blank" href="/static/pdfs/PrivacyPolicy.pdf" target="blank" style="text-decoration: none; text-decoration-color: white; color: white;">Privacy Policy</a>
+        <br> 
+       
+          <a target="blank" href="/static/pdfs/T&C.pdf" target="blank">Terms & Conditions</a>
+     </p>
+    </div>
+    <div class="copyright col-12" style="text-align: center;margin:auto;">
+      <p class="footer-text m-0 text-white">
+      &copy; Copyright | YLP <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script> All Right Reserved. | Designed & Developed with <i style="color: #e6382c;" class="fa fa-heart" aria-hidden="true"></i> by <a href="https://sleeksites.in" target="_blank">SleekSites</a></p>
+      </div>
+        <!-- <div class="col-lg-8 col-md-12 col-sm-12">
+          <p class="footer-text">
+            Developed with 
+            <i class="far fa-heart" aria-hidden="true"></i> by 
+            <a href="https://sleeksites.in/" target="_blank">SleekSites</a>
+         </p>
+        </div> -->
+  </div>
+
+  <!-- =================================== -->
+
+  <script src="static/assets/app.js"></script>
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+
+</body>
+</html>

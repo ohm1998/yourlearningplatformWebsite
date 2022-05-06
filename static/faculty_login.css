@@ -1,0 +1,78 @@
+    :root {
+        --bg : #1C2129;
+        --label : #7D94B8;
+        --add : #3BA387;
+        --font : 'Inter';
+        --inpbg : #2C333D;
+        --inpf : #E8EDF5;
+        --logout : #D14B5A;
+        --nav-other : #7D94B8;
+        --small : #2D75E0;
+    }
+    body{
+        background-color: var(--bg);
+        font-family: var(--font);
+    }
+    label{
+        color: var(--label);
+        font-weight: 700;
+    }
+    input{
+        background-color: var(--inpbg) !important;
+        color: var(--inpf) !important;
+        font-weight: 500 !important;
+        border-radius: 8px !important;
+        border: 1px solid var(--small) !important;
+    }
+    .form-control::-webkit-input-placeholder {
+      color: var(--inpf);
+      font-weight: 500;
+    }
+    @media (max-width:576px) {
+        #svg{
+            width: 60%;
+        }
+    }
+    .overlay {
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        background: var(--bg);
+        z-index: 10;
+    }
+    
+    .overlay__inner {
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+    
+    .overlay__content {
+        left: 50%;
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .spinner {
+        width: 75px;
+        height: 75px;
+        display: inline-block;
+        border-width: 2px;
+        border-color: rgba(255, 255, 255, 0.05);
+        border-top-color: green;
+        animation: spin 1s infinite linear;
+        border-radius: 100%;
+        border-style: solid;
+    }
+    
+    @keyframes spin {
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+    
